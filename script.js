@@ -1,9 +1,7 @@
 function soma() {
   var soma1 = document.getElementById("soma1").value;
-  console.log(soma1);
   var soma2 = document.getElementById("soma2").value;
-  var resultado = parseFloat(soma1).toString() + parseFloat(soma2);
-  console.log(resultado);
+  var resultado = parseFloat(soma1) + parseFloat(soma2);
   document.getElementById("soma-resultado").value = resultado;
 }
 
