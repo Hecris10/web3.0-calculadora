@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculadora</title>
+  </head>
+  <body>
+    <header>
+      <h1>Desafios</h1>
+    </header>
+    <main>
+      <div class="soma">
+        <input title="soma01" type="number" id="soma1" />
+        +
+        <input title="soma01" type="number" id="soma2" />
+        <button onclick="soma()" type="button">=</button>
+        <input readonly title="soma01" type="number" id="soma-resultado" />
+      </div>
+      <br />
+      <div class="subtracao">
+        <input title="subtracao01" type="number" id="subtracao1" />
+        -
+        <input title="subtracao01" type="number" id="subtracao2" />
+        <button onclick="subtracao()" type="button">=</button>
+        <input
+          readonly
+          title="subtracao01"
+          type="number"
+          id="subtracao-resultado"
+        />
+      </div>
+      <br />
+      <div class="multiplicacao">
+        <input title="multiplicacao01" type="number" id="multiplicacao1" />
+        x
+        <input title="multiplicacao01" type="number" id="multiplicacao2" />
+        <button onclick="multiplicacao()" type="button">=</button>
+        <input
+          readonly
+          title="multiplicacao01"
+          type="number"
+          id="multiplicacao-resultado"
+        />
+      </div>
+      <br />
+      <div class="divisao">
+        <input title="divisao01" type="number" id="divisao1" />
+        /
+        <input title="divisao01" type="number" id="divisao2" />
+        <button onclick="divisao()" type="button">=</button>
+        <input
+          readonly
+          title="divisao01"
+          type="number"
+          id="divisao-resultado"
+        />
+      </div>
+      <br />
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>
